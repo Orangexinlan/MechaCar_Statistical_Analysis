@@ -57,17 +57,18 @@ Based of the results(images) below:
 
 There are multiple factors that MechaCar can use and perform analysis against the competetion: safety rating, cost, highway and city fuel efficienty, maintiance, horse power, seating capacity, PSI, ground clearence. 
 
-1. We can perform analysis on safety rating and cost. Since these variable are very important and are highly considered by a consumer when buying a car, our test can justify the cost associated for the MechaCars
-
-2. Null Hypothesis: If the cost of the car cost is less than  CAD $15,000.00 the safety rating is average.
+1. Null Hypothesis: If the cost of the car cost is less than  CAD $15,000.00 the safety rating is average.
 Alternate Hypothesis: If the cost of the car is not less than CAD $15,000.00 the safety rating is above average.
+
+2. 1. We can perform analysis on safety rating and cost. Since these variable are very important and are highly considered by a consumer when buying a car, our test can justify the cost associated for the MechaCars
 
 3. After setting up the null and alternate hypothesis, we can run test given we all the data required. If the test results in P value less than 0.05 we will conculde by saying we fail the null hypothesis, thus car prices less than CAD $15,000.00 does not have a safety rating of average. Whereas, on the other hand if t.test results in P value greater than 0.05 we can say car prices not less then CAD $15,000.00 have an above average safety rating. 
 
 4. The dataset required to run satistical test: 
 
-- The mean of both samples.
+- The varrince of both samples. 
 - The standard deviation of both samples.
 - The median of both samples .
-- The varrince of both samples. 
+- The mean of both samples.
+
  
